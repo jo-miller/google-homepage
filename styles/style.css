@@ -1,25 +1,3 @@
-.nav {
-    float: right;
-    padding-top: 15px;
-    padding-right: 15px;
-    line-height: 24px;
-    font-family: arials, sans serif;
-    color: #666;
-    font-size: 13px;
-}
-
-a {
-	text-decoration: none;
--webkit-text-decoration: none;
-}
-
-a.link {
-	padding: 15px 8px;
-	color: red;
-	
-}
-
-
 .center	 {
   position: absolute;
   top: 50%;
@@ -46,6 +24,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 li {
@@ -86,7 +65,15 @@ button {
 	line-height: 28px;
 }
 
-
+.nav {
+    float: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    line-height: 24px;
+    font-family: arials, sans serif;
+    color: rgba(0,0,0.87);
+    font-size: 13px;
+}
 
 .footer-above {
 	width: 100%;
